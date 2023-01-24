@@ -1,6 +1,7 @@
 #!/usr/bin/python3
 """Create a Class Square with size, method of area and getters & setters"""
 
+
 class Square:
     """Class - Square"""
 
@@ -24,6 +25,7 @@ class Square:
             def __gt__(self, other):
                 """Compare operator >"""
                 return (self.area() > other.area())
+
             def __ge__(self, other):
                 """Compare operator >="""
                 return (self.area() >= other.area())
