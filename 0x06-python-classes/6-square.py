@@ -1,7 +1,6 @@
 #!/usr/bin/python3
 """ Creating a square class """
 
-
 class Square:
     """
     Defining a class square
@@ -41,9 +40,11 @@ class Square:
                 if value[0] < 0 or value[1] < 0:
                     raise TypeError("position must be a tuple of 2 positive integers")
                 self.__position = value
+
                 def area(self):
                     """Returns the current square area."""
                     return self.__size ** 2
+
                 def my_print(self):
                     """Prints to stdout the square with the character #,
                     at the position given by the position attribute.
